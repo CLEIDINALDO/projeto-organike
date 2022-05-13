@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA59BD24-63DD-AEB0-C590-6A27819E5FC4" name="COMPRADOR">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_comprador" id="873BF624-5928-D786-69DF-8353C0A133F1">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="59FF9DB8-B0AC-936F-4DE0-BAB877666E23">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="10F902CE-9727-EA2A-CA6A-EBD689931126">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="8C38E69F-74DE-702F-54AE-E38A19B5E16E">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_comprador" id="288D739E-F098-531D-FB89-6F37769E2002">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCC65CCC-147E-E78F-7F2E-2F207AD449D2" name="COMPRADOR PK">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:33:29 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>873BF624-5928-D786-69DF-8353C0A133F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

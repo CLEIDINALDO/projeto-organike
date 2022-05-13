@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C581CAD-8F8D-8255-03A5-5445858F396E" name="PRODUTO">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_produto" id="6A48C33F-BCFB-FBCC-D9D0-F0000F4EB68C">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_produto" id="1318E860-2C91-DB6C-A642-0332B0FE1740">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="1F167648-7EED-4098-D2E3-565A67F6418F">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registro_de_certificação" id="41F55311-B525-3497-B032-79612ADF756F">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_colheita" id="980EE0C0-0DC8-7680-3190-B73676358A29">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validade" id="07BBF736-99C8-5CC1-4319-B566989FA24A">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:42:32 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_vendedor" id="1820F0B8-3141-3749-D7CC-0F197E93B950">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 07:00:02 UTC</createdTime>
+<generatorID>1C6ECBE4-F205-1279-4384-99831D21BD3A</generatorID>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<referedAttribute>2C72C58C-E6B7-B2D8-423E-BF03135CACA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_comprador" id="ACA012DC-1644-8F05-16F6-666440B9B2A8">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 07:05:03 UTC</createdTime>
+<generatorID>9AB52158-328C-49DC-7AD1-661BBA7990F2</generatorID>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<referedAttribute>873BF624-5928-D786-69DF-8353C0A133F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC54918D-290D-ECC2-5DFB-72D109DA5236" name="VENDEDORv1 PK">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:36:49 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A48C33F-BCFB-FBCC-D9D0-F0000F4EB68C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

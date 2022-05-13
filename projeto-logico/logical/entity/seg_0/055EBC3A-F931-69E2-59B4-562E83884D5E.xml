@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="055EBC3A-F931-69E2-59B4-562E83884D5E" name="VENDEDORv2">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_vendedor" id="022793AF-A71B-A5DC-B4AD-FFE57CBA7393">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2291ABE4-CC76-7D3C-E4F8-6749312514A5">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="D858A160-3724-8F25-7FA1-409257D199FE">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="3BC737ED-30EA-289D-C456-2E217E8330DF">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_vendedor" id="50151283-5296-22A2-7B5F-F3EEE45E2B04">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7518023E-8D17-5F50-679A-72209B81961E" name="VENDEDOR PK">
+<createdBy>Cleidinaldo</createdBy>
+<createdTime>2022-05-13 06:40:10 UTC</createdTime>
+<ownerDesignName>projeto-logico</ownerDesignName>
+<engineerTo>
+<item key="C8EFD622-A7F1-FC98-1D23-04BAC004954F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>022793AF-A71B-A5DC-B4AD-FFE57CBA7393</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
