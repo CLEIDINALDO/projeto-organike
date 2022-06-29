@@ -1,0 +1,57 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 200px;
+}
+
+header {
+    background-color: #b1d6e0;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 7px;
+    word-spacing: 30px;
+
+}
+
+nav a { color: #fff;
+        font-size: 30pt;
+        text-decoration: none;
+}
+
+nav a:hover {
+    color: #23d0ff;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #ddd;
+    color: #333;
+    padding: 5px;
+    line-height: 1.7em;
+    font-size: 16pt
+}
+
+#imagem_mat {
+    float: Left;
+    width: 220px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #355365;
+    color: #ccc;    
+    padding: 10px;
+    text-align: center;
+}
+
+input, textarea {
+    font-size: 16pt;
+    padding: 5px;
+}
