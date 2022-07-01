@@ -1,4 +1,4 @@
-<?php  include "../validar.php";  ?>
+<?php include "../validar.php";  ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,6 +16,7 @@
             <div class="col">
                 <h1>Cadastro de Vendedores:</h1>
                 <form action="cadastro_script_vendedores.php" method="POST" enctype="multipart/form-data">
+                    
                     <div class="form-group">
                         <label for="nome">Nome completo:</label>
                         <input type="text" class="form-control" name="nome" required>
@@ -42,7 +43,7 @@
                     </div>
                     <div class="form-group">
                         <input class="btn btn-primary" type="submit" value="CADASTRAR">
-                    </div>                    
+                    </div>
                 </form>
                 <hr>
                 <a href="index.php" class="btn btn-info">Voltar para o Início</a>
