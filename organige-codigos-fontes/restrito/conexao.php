@@ -5,6 +5,8 @@
 	$password = "";
 	$bd = "empresa";
 
+	$dir = 'img/';
+
 	if ($conn = mysqli_connect($servername, $username,  $password, $bd)) {
 		//echo "Conectado.";
 	} else
